@@ -106,7 +106,7 @@ require (
 // in .github/dependabot.yml
 
 // Pinned to kubernetes-1.21.11
-//replace (
-//	k8s.io/client-go => k8s.io/client-go v0.21.11
-//	k8s.io/klog/v2 => k8s.io/klog/v2 v2.9.0
-//)
+replace (
+	k8s.io/client-go => k8s.io/client-go v0.21.11
+	k8s.io/klog/v2 => k8s.io/klog/v2 v2.9.0
+)

@@ -30,7 +30,7 @@ type Options struct {
 	LoadBalancerEnabled           bool
 	HealthCheckEnabled            bool
 	NATTPort                      int
-	NatDiscovery 		      uint16
+	NatDiscovery 		      uint
 	GlobalnetClusterSize          uint
 	HealthCheckInterval           uint64
 	HealthCheckMaxPacketLossCount uint64

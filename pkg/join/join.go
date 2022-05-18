@@ -140,6 +140,7 @@ func submarinerOptionsFrom(joinOptions *Options) *deploy.SubmarinerOptions {
 		LoadBalancerEnabled:           joinOptions.LoadBalancerEnabled,
 		HealthCheckEnabled:            joinOptions.HealthCheckEnabled,
 		NATTPort:                      joinOptions.NATTPort,
+		NatDiscovery:                  joinOptions.NatDiscovery,
 		HealthCheckInterval:           joinOptions.HealthCheckInterval,
 		HealthCheckMaxPacketLossCount: joinOptions.HealthCheckMaxPacketLossCount,
 		ClusterID:                     joinOptions.ClusterID,

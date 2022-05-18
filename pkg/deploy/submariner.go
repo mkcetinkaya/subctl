@@ -42,7 +42,7 @@ type SubmarinerOptions struct {
 	LoadBalancerEnabled           bool
 	HealthCheckEnabled            bool
 	NATTPort                      int
-	NatDiscovery 		      uint
+	NatDiscovery 		      int
 	HealthCheckInterval           uint64
 	HealthCheckMaxPacketLossCount uint64
 	ClusterID                     string

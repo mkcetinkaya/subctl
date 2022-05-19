@@ -27,9 +27,9 @@ import (
 	"github.com/submariner-io/subctl/pkg/broker"
 	"github.com/submariner-io/subctl/pkg/secret"
 	"github.com/submariner-io/subctl/pkg/submarinercr"
-	submariner "github.com/mkcetinkaya/submariner-operator/api/submariner/v1alpha1"
-	"github.com/mkcetinkaya/submariner-operator/pkg/client"
-	"github.com/mkcetinkaya/submariner-operator/pkg/discovery/globalnet"
+	submariner "github.com/submariner-io/submariner-operator/api/submariner/v1alpha1"
+	"github.com/submariner-io/submariner-operator/pkg/client"
+	"github.com/submariner-io/submariner-operator/pkg/discovery/globalnet"
 	v1 "k8s.io/api/core/v1"
 )
 
